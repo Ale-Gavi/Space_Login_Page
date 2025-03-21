@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <div class="astronaut-container" id="astronaut-container">
+            <div class="stars"></div>
+            <div class="planet">
+                <div class="shadow"></div>
+            </div>
+            <div class="astronaut">
+                <div class="tank center"></div>
+                <div class="suit center">
+                    <div class="helmet center"></div>
+                    <div class="buttons center"></div>
+                    <div class="hand-l"></div>
+                    <div class="hand-r"></div>
+                    <div class="leg-l"></div>
+                    <div class="leg-r"></div>
+                    <div class="pipe"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-ship-container" id="space-ship-container">
+            <div class="background">
+                <div class="burn"></div>
+            </div>
+            <div class="space-shuttle">
+                <div class="orbiter">
+                    <div class="orbiter-window"></div>
+                    <div class="orbiter-wing orbiter-wing-right"></div>
+                    <div class="orbiter-wing orbiter-wing-left"></div>
+                    <div class="orbiter-fin orbiter-fin-right"></div>
+                    <div class="orbiter-fin orbiter-fin-left"></div>
+                </div>
+    
+                <div class="rocket">
+                    <div class="rocket-booster rocket-booster-left"></div>
+                    <div class="rocket-booster rocket-booster-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <button id="login" class="login" onclick="loginAnimation()">Log In</button>
+
+        <script>
+
+            function loginAnimation(){
+                
+                document.getElementById('astronaut-container').style.animation = "astronaut-disappear 2s forwards";
+                
+                setTimeout( () => {
+                    document.getElementById("space-ship-container").style.display = "block";
+                    setTimeout( () => {
+                        document.getElementById("space-ship-container").style.animation = "astronaut-disappear 2s forwards";
+                            
+                        setTimeout( () => {location.href = "login.html";}, 2000)
+                    }, 5000)
+                }, 2000)
+            }
+        </script>
+    </body>
+</html>

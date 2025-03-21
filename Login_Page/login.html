@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login-style.css">
+        <title>Login Page</title>
+    </head>
+    <body>
+
+        <form action="" method="post" class="login-form" id="login-form">
+            <h1>Welcome</h1>
+
+            <input type="email" name="email" id="email" required placeholder="Email" autocomplete="off">
+            <input type="password" name="password" id="password" required placeholder="Password" autocomplete="off" 
+            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*=+-_]).{8,}"
+            title="Almeno una lettera maiuscola, una lettera minuscola, un numero e un carattere speciale per un minimo di 8 caratteri">
+            <input type="submit" name="submit" id="submit" value="Log In">
+        </form>
+    </body>
+</html>
