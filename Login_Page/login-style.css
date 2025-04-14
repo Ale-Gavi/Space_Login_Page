@@ -1,3 +1,5 @@
+/* Code made by Alessandro Gavinelli */
+
 body{
     padding: 0;
     margin: 0;
@@ -35,6 +37,8 @@ body{
     background-color: #9b9fa5;
     box-shadow: inset 10px 20px #515862;
 }
+
+/* Code made by Alessandro Gavinelli */
 
 .login-form{
     background-color: #e0e5ec;
@@ -79,6 +83,7 @@ body{
     
 }
 
+/* Code made by Alessandro Gavinelli */
 
 .login-form input:focus{
     outline: none;
@@ -101,6 +106,8 @@ body{
 .login-form input:active{
     border: none;
 }
+
+/* Code made by Alessandro Gavinelli */
 
 #email{
     position: absolute;
@@ -125,3 +132,5 @@ body{
     color: #34495e;
     font-weight: bold;
 }
+
+/* Code made by Alessandro Gavinelli */
