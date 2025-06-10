@@ -31,3 +31,7 @@
 - [Shuttle](https://www.youtube.com/watch?v=Jqe-YgB0asA)
   
 ---
+
+## 📄 Licenza
+
+Questo progetto è distribuito con licenza MIT. Vedi il file [`LICENSE`](LICENSE) per ulteriori dettagli.
