@@ -33,5 +33,4 @@
 ---
 
 ## 📄 Licenza
-
-Questo progetto è distribuito con licenza MIT. Vedi il file [`LICENSE`](LICENSE) per ulteriori dettagli.
+This project is distributed under the MIT License. See the [`LICENSE`](LICENSE) file for more details.
